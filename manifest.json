@@ -1,0 +1,9 @@
+{
+"name":"Pura Gracia Radio",
+"short_name":"PuraGracia",
+"start_url":"index.html",
+"display":"standalone",
+"background_color":"#054A7C",
+"theme_color":"#054A7C",
+"orientation":"portrait"
+}

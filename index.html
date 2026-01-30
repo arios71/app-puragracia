@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pura Gracia Radio</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="styles.css">
+<meta name="theme-color" content="#054A7C">
+</head>
+<body>
+
+<div id="splash">
+  <img src="LogoPG2022.png">
+</div>
+
+<div class="app hidden">
+  <header><h1>PURA GRACIA RADIO</h1></header>
+  <main>
+    <iframe src="https://samcloud.spacial.com/w/135533/" allow="autoplay"></iframe>
+  </main>
+  <button id="shareBtn">⤴</button>
+</div>
+
+<script src="app.js"></script>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js');
+}
+</script>
+</body>
+</html>
